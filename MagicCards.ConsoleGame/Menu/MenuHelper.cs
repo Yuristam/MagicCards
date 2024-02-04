@@ -18,9 +18,9 @@ public class MenuHelper
                 {
                     index++;
                 }
-            }
 
-            PrintMenu(options, index);
+                PrintMenu(options, index);
+            }
 
             if (keyInfo.Key == ConsoleKey.UpArrow)
             {
